@@ -1,3 +1,7 @@
-export default function App() {
-	return <div>Hello App</div>
+import HeaderAndFooter from './HOC'
+
+function MyApp() {
+	return <main>Body</main>
 }
+
+export default HeaderAndFooter(MyApp)
