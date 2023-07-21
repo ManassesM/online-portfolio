@@ -17,7 +17,7 @@ export const theme = {
 	},
 	borderRadius: {
 		sm: '16px',
-		md: '32px',
+		md: '50px',
 	},
 	typography: {
 		fontWeights: {
