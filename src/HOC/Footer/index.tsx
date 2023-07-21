@@ -1,3 +1,11 @@
+import * as S from './style'
+
 export default function Footer() {
-	return <footer>Footer</footer>
+	return (
+		<S.FooterContainer>
+			<p>
+				Copyright ©2023, Design by <span>Manassés</span>
+			</p>
+		</S.FooterContainer>
+	)
 }
