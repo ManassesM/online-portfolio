@@ -1,4 +1,6 @@
 import Logo from '@/assets/logo.svg'
+import LinkStyle from '@/utiils/LinkStyle'
+import routes from '@/utiils/routes'
 import * as S from './style'
 
 export default function Header() {
@@ -6,10 +8,11 @@ export default function Header() {
 		<S.HeaderContainer>
 			<S.NavbarContainer>
 				<img src={Logo} alt='Logo' />
-				<S.LinkActive>HOME</S.LinkActive>
-				<S.Link>ABOUT ME</S.Link>
-				<S.Link>RESUME</S.Link>
-				<S.Link>CONTACT</S.Link>
+				{routes.map(({ to, link }) => (
+					<S.StyledLink key={link} to={to} style={LinkStyle}>
+						{link}
+					</S.StyledLink>
+				))}
 			</S.NavbarContainer>
 		</S.HeaderContainer>
 	)

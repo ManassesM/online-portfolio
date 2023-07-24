@@ -1,21 +1,11 @@
+import { NavLink } from 'react-router-dom'
 import { styled } from 'styled-components'
 
-export const LinkActive = styled.a`
-	color: ${({ theme }) => theme.colors.third1};
-
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: ${({ theme }) => theme.spacing.sm};
-
-	&:hover {
-		cursor: default;
-	}
-`
-
-export const Link = styled.a`
+export const StyledLink = styled(NavLink)`
 	cursor: pointer;
+	color: ${({ theme }) => theme.colors.secondary1};
 
+	text-decoration: none;
 	&:hover {
 		color: ${({ theme }) => theme.colors.secondary3};
 	}
