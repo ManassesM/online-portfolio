@@ -5,7 +5,6 @@ import * as S from './style'
 
 export default function Footer() {
 	const { pathname } = useLocation()
-	console.log(pathname)
 	const isHome = pathname === '/'
 
 	return (
