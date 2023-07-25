@@ -1,10 +1,4 @@
-import GitHubIcon from '@mui/icons-material/GitHub'
-import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import { styled } from 'styled-components'
-
-export const StyledLinkedinIcon = styled(LinkedInIcon)``
-
-export const StyledGithubIcon = styled(GitHubIcon)``
 
 export const IconsWrapper = styled.div`
 	display: flex;

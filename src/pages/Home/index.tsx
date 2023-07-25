@@ -1,4 +1,6 @@
 import * as S from '@/container/Home/style'
+import GitHubIcon from '@mui/icons-material/GitHub'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
 
 export default function Home() {
 	return (
@@ -11,10 +13,10 @@ export default function Home() {
 				</h2>
 				<S.IconsWrapper>
 					<a href='https://www.linkedin.com/in/manasses-moura/' target='_blank'>
-						<S.StyledLinkedinIcon />
+						<LinkedInIcon />
 					</a>
 					<a href='https://github.com/ManassesM' target='_blank'>
-						<S.StyledGithubIcon />
+						<GitHubIcon />
 					</a>
 				</S.IconsWrapper>
 			</S.ContentWrapper>
