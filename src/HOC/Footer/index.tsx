@@ -1,37 +1,36 @@
-import GitHubIcon from '@mui/icons-material/GitHub'
-import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import * as Icon from '@mui/icons-material'
 import { useLocation } from 'react-router-dom'
-import * as S from './style'
+import * as Style from './style'
 
 export default function Footer() {
 	const { pathname } = useLocation()
 	const isHome = pathname === '/'
 
 	return (
-		<S.FooterContainer>
+		<Style.FooterContainer>
 			{isHome ? (
 				<p>
 					Copyright ©2023, Design by <span>Manassés</span>
 				</p>
 			) : (
-				<S.FooterWrapper>
+				<Style.FooterWrapper>
 					<p>
 						©2023 Manassés, Software Engineer based in Ireland, All Rights
 						Reserved
 					</p>
-					<S.IconsWrapper>
+					<Style.IconsWrapper>
 						<a
 							href='https://www.linkedin.com/in/manasses-moura/'
 							target='_blank'
 						>
-							<LinkedInIcon />
+							<Icon.LinkedIn />
 						</a>
 						<a href='https://github.com/ManassesM' target='_blank'>
-							<GitHubIcon />
+							<Icon.GitHub />
 						</a>
-					</S.IconsWrapper>
-				</S.FooterWrapper>
+					</Style.IconsWrapper>
+				</Style.FooterWrapper>
 			)}
-		</S.FooterContainer>
+		</Style.FooterContainer>
 	)
 }

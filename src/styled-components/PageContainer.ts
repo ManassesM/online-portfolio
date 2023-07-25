@@ -1,5 +1,7 @@
 import { styled } from 'styled-components'
 
-export const PageContainer = styled.div`
+const PageContainer = styled.div`
 	height: calc(100vh - 214px);
 `
+
+export default PageContainer

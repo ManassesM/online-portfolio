@@ -1,19 +1,19 @@
 import Logo from '@/assets/logo.svg'
 import LinkStyle from '@/utiils/LinkStyle'
 import routes from '@/utiils/routes'
-import * as S from './style'
+import * as Style from './style'
 
 export default function Header() {
 	return (
-		<S.HeaderContainer>
-			<S.NavbarContainer>
+		<Style.HeaderContainer>
+			<Style.NavbarContainer>
 				<img src={Logo} alt='Logo' />
 				{routes.map(({ to, link }) => (
-					<S.StyledLink key={link} to={to} style={LinkStyle}>
+					<Style.StyledLink key={link} to={to} style={LinkStyle}>
 						{link}
-					</S.StyledLink>
+					</Style.StyledLink>
 				))}
-			</S.NavbarContainer>
-		</S.HeaderContainer>
+			</Style.NavbarContainer>
+		</Style.HeaderContainer>
 	)
 }
