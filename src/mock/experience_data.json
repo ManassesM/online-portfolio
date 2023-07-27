@@ -1,0 +1,20 @@
+[
+	{
+		"id": "111",
+		"imgSrc": null,
+		"imgAlt": "logo gamifica",
+		"title": "Frontend Developer",
+		"subtitle": "Aug 2021 - Oct 2022",
+		"skills": "Jest;Next.js;JavaScript;Node.js;React.js;TypeScript;Amazon Dynamodb",
+		"role": "Frontend Developer at Gamifica.ai"
+	},
+	{
+		"id": "222",
+		"imgSrc": null,
+		"imgAlt": "logo gamifica",
+		"title": "Backend Jr. Developer",
+		"subtitle": "Mar 2021 - Aug 2021",
+		"skills": "Next.js;Node.js;React.js;TypeScript;Amazon Dynamodb",
+		"role": "Backend Internship Developer at Gamifica.aiBackend"
+	}
+]

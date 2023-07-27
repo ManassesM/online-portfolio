@@ -1,4 +1,4 @@
-import * as Icon from '@mui/icons-material'
+import IconLink from '@/components/IconLink'
 import * as Style from './style'
 
 export default function HomePage() {
@@ -11,12 +11,18 @@ export default function HomePage() {
 					certificates.
 				</h2>
 				<Style.IconsWrapper>
-					<a href='https://www.linkedin.com/in/manasses-moura/' target='_blank'>
-						<Icon.LinkedIn />
-					</a>
-					<a href='https://github.com/ManassesM' target='_blank'>
-						<Icon.GitHub />
-					</a>
+					<IconLink
+						icon='linkedin'
+						href='linkedin.com/in/manasses-moura/'
+						size={60}
+						color='primary'
+					/>
+					<IconLink
+						icon='github'
+						href='github.com/ManassesM'
+						size={60}
+						color='primary'
+					/>
 				</Style.IconsWrapper>
 			</Style.ContentWrapper>
 		</Style.HomeContainer>

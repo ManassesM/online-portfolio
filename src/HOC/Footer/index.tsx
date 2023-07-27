@@ -1,4 +1,4 @@
-import * as Icon from '@mui/icons-material'
+import IconLink from '@/components/IconLink'
 import { useLocation } from 'react-router-dom'
 import * as Style from './style'
 
@@ -19,15 +19,18 @@ export default function Footer() {
 						Reserved
 					</p>
 					<Style.IconsWrapper>
-						<a
-							href='https://www.linkedin.com/in/manasses-moura/'
-							target='_blank'
-						>
-							<Icon.LinkedIn />
-						</a>
-						<a href='https://github.com/ManassesM' target='_blank'>
-							<Icon.GitHub />
-						</a>
+						<IconLink
+							href='linkedin.com/in/manasses-moura/'
+							size={40}
+							color='secondary'
+							icon='linkedin'
+						/>
+						<IconLink
+							href='github.com/ManassesM/'
+							size={40}
+							color='secondary'
+							icon='github'
+						/>
 					</Style.IconsWrapper>
 				</Style.FooterWrapper>
 			)}
