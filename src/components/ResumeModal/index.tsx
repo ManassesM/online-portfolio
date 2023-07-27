@@ -9,7 +9,7 @@ interface ResumeModalProps {
 
 export default function ResumeModal({ id, onCloseModal }: ResumeModalProps) {
 	const data = resume?.filter((xp) => xp.id === id)[0]
-	const skills = data?.skills.split(';')
+	const tags = data?.tags.split(';')
 
 	return (
 		<Style.ResumeModalContainer>
@@ -17,11 +17,11 @@ export default function ResumeModal({ id, onCloseModal }: ResumeModalProps) {
 				<CloseIcon onClick={onCloseModal} />
 				<Style.ModalAlias>{data?.type}</Style.ModalAlias>
 				<Style.ContentWrapper>
-					<img src={data?.imgSrcBanner} alt={data?.imgAlt} />
+					<img src={data?.imgSrcBanner || data?.imgSrc} alt={data?.imgAlt} />
 					<h1>{data?.role}</h1>
 					<span>{data?.subtitle}</span>
 					<Style.Skills>
-						{skills?.map((sk, id) => (
+						{tags?.map((sk, id) => (
 							<span key={id}>{sk} &#x2022; </span>
 						))}
 					</Style.Skills>

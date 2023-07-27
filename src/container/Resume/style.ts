@@ -24,7 +24,7 @@ export const Column = styled.section`
 
 	overflow-y: auto;
 	&::-webkit-scrollbar {
-		width: 6px;
+		width: 1px;
 	}
 
 	&::-webkit-scrollbar-track {
@@ -39,7 +39,7 @@ export const Column = styled.section`
 
 export const ResumeContainer = styled.div`
 	width: 100%;
-  height: 100%;
+	height: 100%;
 
 	display: grid;
 	grid-template-columns: repeat(5, 210px);

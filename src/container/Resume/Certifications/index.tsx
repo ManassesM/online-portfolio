@@ -1,12 +1,16 @@
+import Gamifica from '@/assets/gamifica.png'
 import Tile from '@/components/Tile'
 import resume from '@/mock/resume_data.json'
 
-interface ExperienceProps {
+interface CertificationsProps {
 	handleModal: (id: string) => void
 	type: string
 }
 
-export default function Experience({ handleModal, type }: ExperienceProps) {
+export default function Certifications({
+	handleModal,
+	type,
+}: CertificationsProps) {
 	const experience = resume.filter((xp) => xp.type === type)
 
 	return (
@@ -15,7 +19,7 @@ export default function Experience({ handleModal, type }: ExperienceProps) {
 				<Tile
 					key={id}
 					id={id}
-					imgSrc={imgSrc}
+					imgSrc={imgSrc || Gamifica}
 					imgAlt={imgAlt}
 					title={title}
 					subtitle={subtitle}

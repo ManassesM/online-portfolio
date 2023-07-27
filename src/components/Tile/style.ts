@@ -24,6 +24,7 @@ export const TileContainer = styled.div`
 	&:hover {
 		background: ${({ theme }) => theme.colors.secondary3};
 		cursor: pointer;
+		transition: all 0.2s ease-in;
 	}
 
 	img {
