@@ -12,4 +12,5 @@ export interface IconLinkProps {
 export const available_icons = {
 	linkedin: 'LinkedIn',
 	github: 'GitHub',
+  close: 'Close'
 }

@@ -38,15 +38,19 @@ export const Column = styled.section`
 `
 
 export const ResumeContainer = styled.div`
-	height: 100%;
+	width: 100%;
+  height: 100%;
 
 	display: grid;
 	grid-template-columns: repeat(5, 210px);
 	gap: 28px;
 
-	justify-content: space-around;
+	justify-content: space-evenly;
 	align-content: stretch;
 
 	justify-items: center;
 	align-items: end;
+
+	position: absolute;
+	z-index: 0;
 `

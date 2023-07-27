@@ -6,7 +6,8 @@
 		"title": "Frontend Developer",
 		"subtitle": "Aug 2021 - Oct 2022",
 		"skills": "Jest;Next.js;JavaScript;Node.js;React.js;TypeScript;Amazon Dynamodb",
-		"role": "Frontend Developer at Gamifica.ai"
+		"role": "Frontend Developer at Gamifica.ai",
+		"type": "experience"
 	},
 	{
 		"id": "222",
@@ -15,6 +16,7 @@
 		"title": "Backend Jr. Developer",
 		"subtitle": "Mar 2021 - Aug 2021",
 		"skills": "Next.js;Node.js;React.js;TypeScript;Amazon Dynamodb",
-		"role": "Backend Internship Developer at Gamifica.aiBackend"
+		"role": "Backend Internship Developer at Gamifica.aiBackend",
+		"type": "experience"
 	}
 ]
