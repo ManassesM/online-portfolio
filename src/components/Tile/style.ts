@@ -16,6 +16,8 @@ export const TileContainer = styled.div`
 	justify-content: center;
 	gap: ${({ theme }) => theme.spacing.md};
 
+	text-align: center;
+
 	border-radius: ${({ theme }) => theme.borderRadius.sm};
 	border-bottom: 2px solid ${({ theme }) => theme.colors.secondary1};
 
@@ -27,5 +29,6 @@ export const TileContainer = styled.div`
 	img {
 		width: 50px;
 		height: 50px;
+		border-radius: ${({ theme }) => theme.borderRadius.md};
 	}
 `

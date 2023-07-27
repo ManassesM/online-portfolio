@@ -1,0 +1,46 @@
+[
+	{
+		"id": "111",
+		"imgSrc": "https://i.imgur.com/w4bmgiv.png",
+		"imgSrcBanner": "https://i.imgur.com/3ahGqUa.png",
+		"imgAlt": "logo gamifica",
+		"title": "Frontend Developer",
+		"subtitle": "Aug 2021 - Oct 2022",
+		"skills": ";Jest;Next.js;JavaScript;Node.js;React.js;TypeScript;Amazon Dynamodb",
+		"role": "Frontend Developer at Gamifica.ai",
+		"type": "experience"
+	},
+	{
+		"id": "222",
+		"imgSrc": "https://i.imgur.com/w4bmgiv.png",
+		"imgSrcBanner": "https://i.imgur.com/3ahGqUa.png",
+		"imgAlt": "logo gamifica",
+		"title": "Backend Jr. Developer",
+		"subtitle": "Mar 2021 - Aug 2021",
+		"skills": ";Next.js;Node.js;React.js;TypeScript;Amazon Dynamodb",
+		"role": "Backend Internship Developer at Gamifica.aiBackend",
+		"type": "experience"
+	},
+	{
+		"id": "333",
+		"imgSrc": "https://i.imgur.com/B6NUY1O.png",
+		"imgSrcBanner": "https://i.imgur.com/B6NUY1O.png",
+		"imgAlt": "logo estacio",
+		"title": "Postgraduation in Cloud Computing",
+		"subtitle": "Jan 2023 - Dec 2023",
+		"skills": ";Cloud Computing;Virtualization;Clouding",
+		"role": "Postgraduate in Cloud Computing, Information Technology",
+		"type": "education"
+	},
+	{
+		"id": "444",
+		"imgSrc": "https://i.imgur.com/uEN60k9.png",
+		"imgSrcBanner": "https://i.imgur.com/uEN60k9.png",
+		"imgAlt": "logo projecao",
+		"title": "Analysis and Systems Development",
+		"subtitle": "Feb 2020 - Jun 2022",
+		"skills": ";HTML;CSS;SQL;NoSQL;REST;OOP;Programming Logic",
+		"role": "Analysis and Development of Computer Systems, Information Technology",
+		"type": "education"
+	}
+]

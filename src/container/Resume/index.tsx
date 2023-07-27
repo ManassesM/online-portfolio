@@ -2,6 +2,7 @@ import ResumeModal from '@/components/ResumeModal'
 import { useState } from 'react'
 import Experience from './Experience'
 import * as Style from './style'
+import Education from './Education'
 
 export default function ResumePage() {
 	const [modal, setModal] = useState(false)
@@ -25,6 +26,7 @@ export default function ResumePage() {
 				</Style.Column>
 				<Style.Column>
 					<p>Education</p>
+					<Education handleModal={handleModal} />
 				</Style.Column>
 				<Style.Column>
 					<p>Skills</p>
