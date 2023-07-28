@@ -6,7 +6,7 @@ export const IconLink = styled.div<IconLinkProps>`
 		width: ${({ size }) => `${size}px`};
 		height: ${({ size }) => `${size}px`};
 
-		cursor: pointer;
+		cursor: ${({ isLink }) => (isLink ? 'pointer' : 'default')};
 		color: ${({ color, theme }) => theme.colors[color + '1']};
 
 		&:hover {

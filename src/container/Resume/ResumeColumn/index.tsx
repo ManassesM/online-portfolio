@@ -1,4 +1,3 @@
-import Gamifica from '@/assets/gamifica.png'
 import Tile from '@/components/Tile'
 import resume from '@/mock/resume_data.json'
 
@@ -16,7 +15,7 @@ export default function ResumeColumn({ handleModal, type }: ResumeColumnProps) {
 				<Tile
 					key={id}
 					id={id}
-					imgSrc={imgSrc || Gamifica}
+					imgSrc={imgSrc}
 					imgAlt={imgAlt}
 					title={title}
 					subtitle={subtitle}
