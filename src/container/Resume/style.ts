@@ -31,9 +31,8 @@ export const Column = styled.section`
 		background: ${({ theme }) => theme.colors.secondary2};
 	}
 
-	&::-webkit-scrollbar-thumb {
+	&:hover::-webkit-scrollbar-thumb {
 		background-color: ${({ theme }) => theme.colors.secondary3};
-		border-radius: ${({ theme }) => theme.borderRadius.md};
 	}
 `
 

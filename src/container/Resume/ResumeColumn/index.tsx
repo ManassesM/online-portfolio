@@ -2,15 +2,12 @@ import Gamifica from '@/assets/gamifica.png'
 import Tile from '@/components/Tile'
 import resume from '@/mock/resume_data.json'
 
-interface CertificationsProps {
+interface ResumeColumnProps {
 	handleModal: (id: string) => void
 	type: string
 }
 
-export default function Certifications({
-	handleModal,
-	type,
-}: CertificationsProps) {
+export default function ResumeColumn({ handleModal, type }: ResumeColumnProps) {
 	const experience = resume.filter((xp) => xp.type === type)
 
 	return (

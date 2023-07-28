@@ -185,5 +185,38 @@
 		"tags": ";University;Projecao;Diploma;Graduation",
 		"role": "Degree in Analysis and Systems Development",
 		"type": "certifications"
+	},
+	{
+		"id": "181818",
+		"imgSrc": "https://i.imgur.com/7NvgN5h.png",
+		"imgSrcBanner": null,
+		"imgAlt": "USA flag",
+		"title": "English",
+		"subtitle": "Professional working proficiency",
+		"tags": ";English;Languages;Professional working;C1",
+		"role": "English with Professional Working Experience",
+		"type": "languages"
+	},
+	{
+		"id": "191919",
+		"imgSrc": "https://i.imgur.com/Gzbx6b1.png",
+		"imgSrcBanner": null,
+		"imgAlt": "Spain flag",
+		"title": "Spanish",
+		"subtitle": "Limited working proficiency",
+		"tags": ";Spanish;Languages;Limited working;A2",
+		"role": "Spanish with Limited Working Experience",
+		"type": "languages"
+	},
+	{
+		"id": "202020",
+		"imgSrc": "https://i.imgur.com/qat6PCy.png",
+		"imgSrcBanner": null,
+		"imgAlt": "Brazil flag",
+		"title": "Portuguese",
+		"subtitle": "Native Speaker of Portuguese",
+		"tags": ";Portuguese;Languages;Native speaker;C2",
+		"role": "Native Speaker of Portuguese",
+		"type": "languages"
 	}
 ]
