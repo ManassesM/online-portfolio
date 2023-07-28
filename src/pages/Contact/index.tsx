@@ -1,7 +1,10 @@
+import ContactPage from '@/container/Contact'
+import PageContainer from '@/styled-components/PageContainer'
+
 export default function Contact() {
 	return (
-		<div>
-			<p>Contact</p>
-		</div>
+		<PageContainer>
+			<ContactPage />
+		</PageContainer>
 	)
 }

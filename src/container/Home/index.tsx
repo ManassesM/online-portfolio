@@ -13,7 +13,7 @@ export default function HomePage() {
 				<Style.IconsWrapper>
 					<IconLink
 						icon='linkedin'
-						href='linkedin.com/in/manasses-moura/'
+						href='linkedin.com/in/manasses-moura/?locale=en_US'
 						size={60}
 						color='primary'
 					/>

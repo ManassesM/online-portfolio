@@ -20,7 +20,7 @@ export default function Footer() {
 					</p>
 					<Style.IconsWrapper>
 						<IconLink
-							href='linkedin.com/in/manasses-moura/'
+							href='linkedin.com/in/manasses-moura/?locale=en_US'
 							size={40}
 							color='secondary'
 							icon='linkedin'

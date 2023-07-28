@@ -7,10 +7,13 @@ export const available_colors = {
 export interface IconLinkProps {
 	size: number
 	color: keyof typeof available_colors
+	isLink: boolean
 }
 
 export const available_icons = {
 	linkedin: 'LinkedIn',
 	github: 'GitHub',
-  close: 'Close'
+	close: 'Close',
+	email: 'Email',
+	instagram: 'Instagram',
 }

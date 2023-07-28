@@ -10,7 +10,8 @@ export const IconLink = styled.div<IconLinkProps>`
 		color: ${({ color, theme }) => theme.colors[color + '1']};
 
 		&:hover {
-			color: ${({ color, theme }) => theme.colors[color + '3']};
+			color: ${({ color, theme, isLink }) =>
+				isLink && theme.colors[color + '3']};
 		}
 	}
 `

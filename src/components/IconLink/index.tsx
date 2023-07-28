@@ -3,7 +3,7 @@ import * as Style from './style'
 import * as Util from './utils'
 
 interface IconLinkProps {
-	href: string
+	href?: string
 	size?: number
 	color?: keyof typeof Util.available_colors
 	icon: keyof typeof Util.available_icons
@@ -18,10 +18,14 @@ export default function IconLink({
 	const SelectedIcon = MuiIcon[Util.available_icons[icon]]
 
 	return (
-		<Style.IconLink size={size} color={color}>
-			<a href={`https://${href}`} target='_blank'>
+		<Style.IconLink size={size} color={color} isLink={!!href}>
+			{href ? (
+				<a href={`https://${href}`} target='_blank'>
+					<SelectedIcon />
+				</a>
+			) : (
 				<SelectedIcon />
-			</a>
+			)}
 		</Style.IconLink>
 	)
 }
